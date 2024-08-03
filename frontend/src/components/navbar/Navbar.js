@@ -13,10 +13,10 @@ function Navbar() {
             <PersonIcon fontSize='large'/>
         </IconButton>
         
-        <img className='logo' 
+        <a href='/items'><img className='logo' 
         src= {logo}
         alt='style swap'
-        />
+        /></a>
         <IconButton>
             <ForumIcon fontSize='large' />
         </IconButton>

@@ -1,11 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { FaTimes, FaStar, FaHeart } from 'react-icons/fa';
+import './Footer.css';  // Import the CSS file
 
-function Footer() {
+const Footer = () => {
   return (
-    <div>
-        
-    </div>
-  )
-}
+    <footer className="footer">
+      <div className="footer-buttons">
+        <button className="footer-button reject">
+          <FaTimes />
+        </button>
+        <button className="footer-button favorite">
+          <FaStar />
+        </button>
+        <button className="footer-button like">
+          <FaHeart />
+        </button>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
