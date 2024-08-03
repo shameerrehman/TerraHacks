@@ -9,8 +9,8 @@ import { IconButton } from '@mui/material';
 function Navbar() {
   return (
     <div className='header'>
-        <IconButton>
-            <PersonIcon fontSize='large' />
+        <IconButton href='/login'>
+            <PersonIcon fontSize='large'/>
         </IconButton>
         
         <img className='logo' 
