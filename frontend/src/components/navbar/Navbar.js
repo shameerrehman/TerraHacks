@@ -9,7 +9,7 @@ import { IconButton } from '@mui/material';
 function Navbar() {
   return (
     <div className='header'>
-        <IconButton href='/login'>
+        <IconButton href='/profile'>
             <PersonIcon fontSize='large'/>
         </IconButton>
         
@@ -17,7 +17,7 @@ function Navbar() {
         src= {logo}
         alt='style swap'
         /></a>
-        <IconButton>
+        <IconButton href=''>
             <ForumIcon fontSize='large' />
         </IconButton>
     </div>

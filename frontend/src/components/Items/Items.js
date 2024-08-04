@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import TinderCard from 'react-tinder-card'
 import './Items.css'
+import Footer from '../Footer/Footer';
 
 function Items() {
     const [items, setItems] = useState([
@@ -112,6 +113,7 @@ function Items() {
 
             ))}
         </div>
+        <Footer />
     </div>
   )
 }
