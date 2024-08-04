@@ -17,7 +17,7 @@ function Navbar() {
         src= {logo}
         alt='style swap'
         /></a>
-        <IconButton href=''>
+        <IconButton href='/inbox'>
             <ForumIcon fontSize='large' />
         </IconButton>
     </div>
